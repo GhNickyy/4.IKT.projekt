@@ -2,8 +2,8 @@ body { font-family: sans-serif; }
 
 .scene {
   display: inline-block;
-  width: 200px;
-  height: 260px;
+  width: 330px;
+  height: 200px;
   border: 1px solid #CCC;
   margin: 40px 0;
   perspective: 600px;
@@ -42,4 +42,12 @@ body { font-family: sans-serif; }
 .card__face--back {
   background: slateblue;
   transform: rotateY(180deg);
+}
+header{
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  color: #CCC;
+  top: 0;
 }
