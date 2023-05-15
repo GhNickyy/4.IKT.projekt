@@ -1,9 +1,12 @@
-body { font-family: sans-serif; }
+body { 
+  font-family: sans-serif; 
+  margin: 0;
+}
 
 .scene {
   display: inline-block;
-  width: 330px;
-  height: 200px;
+  width: 280px;
+  height:150px;
   border: 1px solid #CCC;
   margin: 40px 0;
   perspective: 600px;
@@ -31,7 +34,7 @@ body { font-family: sans-serif; }
   color: white;
   text-align: center;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 25px;
   backface-visibility: hidden;
 }
 
@@ -50,4 +53,18 @@ header{
   background-color: black;
   color: #CCC;
   top: 0;
+}
+
+.card2{
+  width: 1050px;
+  height:500px;
+}
+
+.elso1{
+  background-size: cover;
+  background-image: url('green-dodge-challenger-4k-2020-hz.jpg');
+}
+.elso2{
+  background-size: cover;
+  background-image: url('photo-1570397382379-a66f8b2aa37f.png');
 }
