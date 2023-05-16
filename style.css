@@ -121,4 +121,5 @@ header{
 .elso2{
   background-size: cover;
   background-image: url('wheel.png');
+  font-size: 75%;
 }
