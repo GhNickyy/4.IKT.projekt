@@ -1,6 +1,6 @@
 body { 
   font-family: sans-serif; 
-  background-image: url('bg.jpg');
+  background-image: url('images/bg.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -144,7 +144,7 @@ header{
 
 .elso1{
   background-size: cover;
-  background-image: url('green-dodge-challenger-4k-2020-hz.jpg');
+  background-image: url('images/green-dodge-challenger-4k-2020-hz.jpg');
 }
 .elso2{
   background-size: cover;
