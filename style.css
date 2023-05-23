@@ -1,6 +1,6 @@
 body { 
   font-family: sans-serif; 
-  background-image: url('bg.jpg');
+  background-image: url('../4.IKT.projekt-main/images/bg.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -14,7 +14,10 @@ h1{
   margin-top: 30px;
   text-align: center;
 }
-
+h2,h3,p{
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
 *{
   margin: 0px;
   padding: 0px;
@@ -144,10 +147,79 @@ header{
 
 .elso1{
   background-size: cover;
-  background-image: url('green-dodge-challenger-4k-2020-hz.jpg');
+  background-image: url('../4.IKT.projekt-main/images/horace.jpg.png');
 }
 .elso2{
   background-size: cover;
-  background-image: url('wheel.png');
+  background-image: url('../4.IKT.projekt-main/images/john.png');
+  font-size: 75%;
+}
+.masodik1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1966.jpg');
+}
+.masodik2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1966-2.jpg');
+  font-size: 75%;
+}
+.harmadik1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1969.jpg');
+  font-size: 75%;
+}
+.harmadik2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1968.jpg');
+  font-size: 75%;
+}
+.negy1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1971.jpg');
+  font-size: 75%;
+}
+.negy2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1972.jpg');
+  font-size: 75%;
+}
+.ot1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1975.jpg');
+  font-size: 75%;
+}
+.ot2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1975-2.jpg');
+  font-size: 75%;
+}
+.hat1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1984.jpg');
+  font-size: 75%;
+}
+.hat2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1987.jpg');
+  font-size: 75%;
+}
+.het1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/2006.jpg');
+  font-size: 75%;
+}
+.het2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/2010-2.jpg');
+  font-size: 75%;
+}
+.nyoc1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/2023.jpg');
+  font-size: 75%;
+}
+.nyoc2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/2023-2.jpg');
   font-size: 75%;
 }
