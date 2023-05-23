@@ -1,0 +1,225 @@
+body { 
+  font-family: sans-serif; 
+  background-image: url('../4.IKT.projekt-main/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
+  background-color:rgba(31, 126, 86, 0.815);
+  margin-left: 0;
+}
+
+h1{
+  margin-top: 30px;
+  text-align: center;
+}
+h2,h3,p{
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  transition: all 2s ease;
+  transition-timing-function: all 10s;
+}
+
+.slider {
+margin-left: 1200px;
+width: 450px;
+height: 250px;
+overflow: hidden;
+border-radius: 3px;
+box-shadow: 3px 10px 15px 0px rgba(0,0,0,0.4);
+}
+
+img {
+width: 450px;
+height: 250px;
+border-radius: 3px;
+}
+
+button{
+  margin: 0px 5px 5px 0px;
+  color: aquamarine;
+  background-color: rgb(10, 90, 10);
+}
+
+button:hover{
+  color: rgb(93, 221, 253);
+  font-size: 101%;
+}
+
+#copy{
+  text-align: center;
+  margin: 2.5px;
+}
+#teszt{
+  float: right;
+}
+
+span{
+  font-size: 80%;
+}
+
+.cardflashpage{
+  margin:88px 0px 0px 50px !important;
+}
+
+.scene {
+  margin: 40px;
+  display: inline-block;
+  width: 280px;
+  height:150px;
+  border: none;
+  perspective: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: .2s;
+}
+
+.card.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  line-height: 260px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+  background: crimson;
+}
+
+.card__face--back {
+  background: slateblue;
+  transform: rotateY(180deg);
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+  background-color:rgba(31, 126, 86, 0.815);
+  color: black;
+  bottom: 0;
+  text-align: right;
+  line-height: 100%;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  background-color:rgba(31, 126, 86, 0.815);
+  color: black;
+  top: 0;
+  text-align: left;
+  line-height: 45px;
+  padding-left: 5px;
+  padding: 2.5px !important;
+}
+
+.card2{
+  width: 1050px;
+  height:500px;
+}
+
+.elso1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/horace.jpg.png');
+}
+.elso2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/john.png');
+  font-size: 75%;
+}
+.masodik1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1966.jpg');
+}
+.masodik2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1966-2.jpg');
+  font-size: 75%;
+}
+.harmadik1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1969.jpg');
+  font-size: 75%;
+}
+.harmadik2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1968.jpg');
+  font-size: 75%;
+}
+.negy1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1971.jpg');
+  font-size: 75%;
+}
+.negy2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1972.jpg');
+  font-size: 75%;
+}
+.ot1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1975.jpg');
+  font-size: 75%;
+}
+.ot2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1975-2.jpg');
+  font-size: 75%;
+}
+.hat1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1984.jpg');
+  font-size: 75%;
+}
+.hat2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1987.jpg');
+  font-size: 75%;
+}
+.het1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/2006.jpg');
+  font-size: 75%;
+}
+.het2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/2010-2.jpg');
+  font-size: 75%;
+}
+.nyoc1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/2023.jpg');
+  font-size: 75%;
+}
+.nyoc2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/2023-2.jpg');
+  font-size: 75%;
+}
