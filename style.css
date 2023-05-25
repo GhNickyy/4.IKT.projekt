@@ -17,6 +17,7 @@ h1{
 h2,h3,p{
   margin-bottom: 10px;
   margin-left: 10px;
+  font-size: large;
 }
 *{
   margin: 0px;
@@ -48,8 +49,8 @@ border-radius: 3px;
 
 button{
   margin: 0px 5px 5px 0px;
-  color: aquamarine;
-  background-color: rgb(10, 90, 10);
+  color: rgb(19, 18, 18);
+  background-color: rgb(224, 109, 32);
 }
 
 button:hover{
@@ -119,9 +120,10 @@ span{
 }
 
 footer{
+  margin-top: 5%;
   position: fixed;
   width: 100%;
-  background-color:rgba(31, 126, 86, 0.815);
+  background-color:rgb(197, 74, 74);
   color: black;
   bottom: 0;
   text-align: right;
@@ -221,5 +223,65 @@ header{
 .nyoc2{
   background-size: cover;
   background-image: url('../4.IKT.projekt-main/images/2023-2.jpg');
+  font-size: 75%;
+}
+.chegy1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1970ch\ .jpg');
+  font-size: 75%;
+}
+.chegy2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1970ch-2\ .jpg');
+  font-size: 75%;
+}
+.chketto1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1971ch\ .jpg');
+  font-size: 75%;
+}
+.chketto2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1971ch-2\ .jpg');
+  font-size: 75%;
+}
+.chharom1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1972ch\ .jpg');
+  font-size: 75%;
+}
+.chharom2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1972ch-2\ .jpg');
+  font-size: 75%;
+}
+.chnegy1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1973ch\ .jpg');
+  font-size: 75%;
+}
+.chnegy2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1973ch-2\ .jpg');
+  font-size: 75%;
+}
+.chot1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1974ch\ .jpg');
+  font-size: 75%;
+}
+.chot2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/1974ch-2\ .jpg');
+  font-size: 75%;
+}
+.chhat1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/2008ch.jpg');
+  font-size: 75%;
+}
+.chhat2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/2008ch-2\ .jpg');
   font-size: 75%;
 }
