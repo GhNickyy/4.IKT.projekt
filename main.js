@@ -1,5 +1,5 @@
 var cards = document.querySelectorAll('.card');
-
+next = 1;
 [...cards].forEach((card)=>{
   card.addEventListener( 'click', function() {
     card.classList.toggle('is-flipped');
@@ -21,9 +21,13 @@ function startSlider() {
   images.style.transform = `translateX(-${currentSlide * 450}px)`;
 
   if (currentSlide === imageCount.length - 1) {
-    currentSlide = 0;
+    next = -1 * next ;
+    currentSlide += next;
+  } else if(currentSlide === 0) {
+    next = 1;
+    currentSlide += next;
   } else {
-    currentSlide++;
+    currentSlide += next;
   }
 }
 
