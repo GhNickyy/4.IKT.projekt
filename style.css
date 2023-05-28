@@ -92,8 +92,8 @@ button:hover{
   margin: 2.5px;
 }
 #teszt{
+  margin: 30px 600px 100px 0px;
   float: right;
-  margin-bottom: 100px;
 }
 
 #udvozlo{
@@ -115,7 +115,7 @@ span{
 }
 
 .cardflashpage{
-  margin:88px 0px 0px 50px !important;
+  margin: 105px 0px 0px 50px !important;
 }
 
 .scene {
@@ -186,7 +186,7 @@ header{
 }
 
 #elsoflashcard{
-  margin-top: 150px;
+  margin-top: 550px;
 }
 
 .card2{
