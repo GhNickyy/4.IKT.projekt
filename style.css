@@ -95,6 +95,18 @@ button:hover{
   float: right;
 }
 
+#udvozlo{
+  border: 3px white solid;
+  margin: 70px 145px 50px 145px;
+  padding: 20px;
+  background-image: url('images/grey.jpg');
+  border-radius: 1rem;
+}
+
+#box{
+  text-decoration: underline 1px rgba(255, 255, 255, 0.767) double;
+}
+
 span{
   font-size: 80%;
   text-align: center;
