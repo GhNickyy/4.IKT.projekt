@@ -6,7 +6,7 @@ body {
   background-size: cover;
   color: white;
   background-attachment: fixed;
-  background-color:rgba(31, 126, 86, 0.815);
+  background-color: none;
 }
 
 h1{
@@ -54,7 +54,7 @@ ul {
 }
 
 .slider {
-margin-left: 1150px;
+margin-left: 70%;
 width: 450px;
 height: 250px;
 overflow: hidden;
@@ -92,8 +92,11 @@ button:hover{
   margin: 2.5px;
 }
 #teszt{
-  margin: 30px 600px 100px 0px;
-  float: right;
+  margin-top: 35px;
+  margin-bottom: 100px;
+  margin-left: 75%;
+  line-height: 60px;
+  width: 150px;
 }
 
 #udvozlo{
