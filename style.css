@@ -71,7 +71,7 @@ border-radius: 3px;
 button{
   margin: 5px 10px 5px 10px;
   color: rgb(19, 18, 18);
-  background-color: #b8dacd;
+  background-color: #ffffff;
   border-radius: 4px;
   border: none;
   padding: 2px;
@@ -82,9 +82,9 @@ button{
 }
 
 button:hover{
-  color: rgb(65, 180, 165);
+  color: rgb(255, 51, 0);
   font-size: 101%;
-  box-shadow: 0 0 0 4px #fff, 0 0 0 8px #226b2e;
+  box-shadow: 0 0 0 4px #fff, 0 0 0 8px #000000;
 }
 
 #copy{
@@ -93,6 +93,7 @@ button:hover{
 }
 #teszt{
   float: right;
+  margin-bottom: 100px;
 }
 
 #udvozlo{
@@ -104,7 +105,7 @@ button:hover{
 }
 
 #box{
-  text-decoration: underline 1px rgba(255, 255, 255, 0.767) double;
+  font-style: italic;
 }
 
 span{
@@ -135,7 +136,7 @@ span{
   transform-style: preserve-3d;
   transform-origin: center right;
   transition: .2s;   
-  margin-left: 60%;
+  margin: 20px 50px 0px 80px;
 }
 
 .card.is-flipped {
@@ -166,21 +167,26 @@ span{
 footer{
   position: fixed;
   width: 100%;
-  background-color:#70eca4;
-  color: black;
+  background-color:#f73939;
+  color: white;
   bottom: 0;
   text-align: right;
   line-height: 35px;
+  letter-spacing: 2px;
 }
 
 header{
   position: fixed;
   width: 100%;
-  background-color:#70eca4;
+  background-color:#f73939;
   color: black;
   top: 0;
   text-align: left;
   line-height: 45px;
+}
+
+#elsoflashcard{
+  margin-top: 150px;
 }
 
 .card2{
