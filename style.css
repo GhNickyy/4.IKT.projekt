@@ -54,14 +54,15 @@ p, h1, h2, h3{
 
 ul {
   display: flex;
-  list-style: none;
+  list-style:none;
   transition: all 2s ease;
   transition-timing-function: all 10s;
 }
 
 .slider{
   margin-top: 100px;
-  margin-left: 69%;
+  margin-left: 40%;
+  margin-right: 40%;
   width: 450px;
   height: 250px;
   overflow: hidden;
@@ -176,11 +177,19 @@ span{
 }
 
 .card__face--front {
-  background: crimson;
+  background-color: #000000;
+  background-image: url(../4.IKT.projekt-main/images/john.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .card__face--back {
-  background: slateblue;
+  background-color: #000000;
+  background-image: url(../4.IKT.projekt-main/images/john.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   transform: rotateY(180deg);
 }
 
@@ -218,7 +227,8 @@ header{
 }
 
 #card-text{
-  text-align-last: center;
+  text-align: center;
+  font-size: 12px;
 }
 
 .elso1{
@@ -227,8 +237,15 @@ header{
 }
 .elso2{
   background-size: cover;
-  background-image: url('../4.IKT.projekt-main/images/john.png');
-
+  background-image: url('../4.IKT.projekt-main/images/horace.jpg.png');
+}
+.urolso1{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/john.jpg');
+}
+.urolso2{
+  background-size: cover;
+  background-image: url('../4.IKT.projekt-main/images/john.jpg');
 }
 .masodik1{
   background-size: cover;
@@ -293,12 +310,12 @@ header{
 }
 .nyoc1{
   background-size: cover;
-  background-image: url('../4.IKT.projekt-main/images/2023.jpg');
+  background-image: url('../4.IKT.projekt-main/images/2015.jpg');
   font-size: 75%;
 }
 .nyoc2{
   background-size: cover;
-  background-image: url('../4.IKT.projekt-main/images/2023-2.jpg');
+  background-image: url('../4.IKT.projekt-main/images/2015-2.jpg');
   font-size: 75%;
 }
 .chegy1{
